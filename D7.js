@@ -98,7 +98,23 @@ console.log(risultato);
 console.log(
   "-------------------------Esercizio 7---------------------------------"
 );
-
+const arrayStringhe = [
+  "CHAT",
+  "GPT",
+  "MI",
+  "STA",
+  "INSEGNADO",
+  "COME",
+  "FUNZIONANO",
+  "QUESTI",
+  "MALEDETTI",
+  "METODI",
+];
+console.log(arrayStringhe);
+const nLettere = arrayStringhe.map(function (elemento) {
+  return elemento.length;
+});
+console.log(nLettere);
 /* ESERCIZIO 8 (forEach o for)
   Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99.
 */
