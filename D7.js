@@ -122,6 +122,15 @@ console.log(
   "-------------------------Esercizio 8---------------------------------"
 );
 
+function arrayDispari() {
+  const array4 = [];
+  for (let index = 1; index <= 99; index += 2) {
+    array4.push(index);
+  }
+  return array4;
+}
+console.log(arrayDispari());
+
 /* Questo array di film verrà usato negli esercizi a seguire. Non modificarlo e scorri oltre per riprendere gli esercizi :) */
 const movies = [
   {
